@@ -1,4 +1,3 @@
-DROP DATABASE chat;
 CREATE DATABASE chat;
 
 USE chat;
@@ -20,8 +19,7 @@ CREATE TABLE users (
 );
 
 INSERT INTO messages (message, roomname) VALUES ('how are you', 'lobby');
-INSERT INTO messages (message, roomname) VALUES ('I am fine, thank you', 'lobby');
-INSERT INTO users (username) VALUES ('Shawn Feng');
+INSERT INTO users (username) VALUES ('Shawn');
 
 /*  Execute this file from the command line by typing:
  *    mysql -u root < server/schema.sql
